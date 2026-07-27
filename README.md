@@ -43,8 +43,21 @@ SmartSpend is a personal finance tracker and analytics dashboard built as the CI
 
 2. Copy the example environment file and generate an app key:
 
+   macOS / Linux:
    ```bash
    cp .env.example .env
+   php artisan key:generate
+   ```
+
+   Windows (Command Prompt):
+   ```cmd
+   copy .env.example .env
+   php artisan key:generate
+   ```
+
+   Windows (PowerShell):
+   ```powershell
+   Copy-Item .env.example .env
    php artisan key:generate
    ```
 
